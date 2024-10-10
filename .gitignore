@@ -1,3 +1,4 @@
-vendor/
-var/
-generated/
+/.vscode/
+/vendor/
+/var/
+/generated/
