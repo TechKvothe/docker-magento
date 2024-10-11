@@ -34,7 +34,7 @@ class Index extends Action implements HttpGetActionInterface {
      */
     public function execute(): Page {
         $page = $this->pageFactory->create();
-        $page->setActiveMenu(self::ADMIN_RESOURCE);
+        $page->setActiveMenu('Cellshop_Minerva::faq');
         $page->getConfig()->getTitle()->prepend(__('FAQs'));
 
         return $page;
