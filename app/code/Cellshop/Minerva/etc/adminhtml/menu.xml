@@ -18,7 +18,7 @@
             module="Cellshop_Minerva"
             resource="Cellshop_Minerva::faq"
             parent="Cellshop_Minerva::minerva"
-            action="minerva/faq"
+            action="minerva/faq/index"
         />
     </menu>
 </config>
